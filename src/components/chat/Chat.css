@@ -1,0 +1,116 @@
+.room-heading {
+    font-size: 1.2rem;
+}
+
+.chat-window {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chat-messages {
+    width: min(80%, 450px);
+    height: 70vh;
+    margin-top: min(10px, 2vh);
+    margin-bottom: min(10px, 2vh);
+    display: flex;
+    flex-direction: column;
+    padding: min(2.5%, 15px);
+    gap: 30px;
+    overflow-y: scroll;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.3px);
+    -webkit-backdrop-filter: blur(9.3px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f181;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.message-by-anyone {
+    max-width: 65%;
+}
+
+.message-by-anyone {
+    width: min-content;
+    max-width: 75%;
+    /* word-spacing: 15px; */
+    width: 150px;
+    padding: 5px;
+    padding-inline: 10px;
+    background-color: #e9edc9;
+    overflow-wrap: break-word;
+    border-radius: 5px;
+}
+
+
+.message-by-you {
+    align-self: flex-end;
+}
+
+.message-by-you {
+    background-color: #ccd5ae;
+}
+
+.message-username {
+    font-weight: bold;
+}
+
+.message-time {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.7em;
+}
+
+.chat-block {
+    width: min(60%, 350px);
+    display: flex
+}
+
+.chat-input {
+    flex-grow: 1;
+    border: none;
+    /* border-radius: 8px; */
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 4vh;
+}
+
+.chat-input:focus {
+    border: none;
+    outline: none;
+}
+
+.send-button {
+    border: none;
+    height: 4vh;
+    flex-grow: 0.1;
+    cursor: pointer;
+    background-color: #bfbcbc;
+}
