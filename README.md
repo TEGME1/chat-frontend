@@ -6,4 +6,5 @@ Room Selection Page
 ![image](https://user-images.githubusercontent.com/76863803/193858006-005b0b69-2de8-454f-8da4-2bdf90100c65.png)
 
 Chat window
-![image](https://user-images.githubusercontent.com/76863803/193858095-cc7e0f64-d059-4489-ad8b-ed552bf1ea9c.png)
+![image](https://user-images.githubusercontent.com/76863803/193858581-c5ba7106-06ba-4d2c-8341-4af6e490979b.png)
+
